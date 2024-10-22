@@ -8,6 +8,10 @@ gcc -o ifaceip ifaceip.c -static
 ```bash
 sudo mv ifaceip /usr/local/bin
 ```
+
+Pre-compiled binary at bin/ directory.
+
+## How to use
 ```bash
 ifaceip wlan0
 ifaceip wlan0 | xargs echo "My IP:"
